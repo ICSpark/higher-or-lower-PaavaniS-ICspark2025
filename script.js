@@ -16,13 +16,27 @@ function generateRandom() {
 
 // Function for the higher button
 function higher() {
-   
-}
+   if (nextRandom > random) {
+    alert ("rarrr you won");
+   }
+   else if (nextRandom < random) {
+    alert (" womp womp")
+   }
+   generateRandom();
+
 
 // Function for the lower button
 function lower() {
+    if (nextRandom < random); {
+        alert ("rarrr you won");
+    }
+    
+   if (nextRandom > random); { 
+    alert (" womp womp")
+   }
    
-}
+
 
 //Generate a number to start the game!
 generateRandom();
+
